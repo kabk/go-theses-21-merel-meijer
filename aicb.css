@@ -1,27 +1,27 @@
 
+/* font-family: halyard-display, sans-serif;
+font-style: normal;
+font-weight: 400; */
 
 @media only screen and (orientation: portrait) {
   body {
-    background-color:rgb(102, 255, 51);
-  }
+    background-color: black;
 
-  div.TalbeOfContent{
-    display: none;
   }
 
   div.text{
     font-size: 80px;
-    font-family: halyard-display, sans-serif;
+    font-family: linotype-sabon, serif;
     font-style: normal;
     font-weight: 400;
     color: white;
       margin: auto;
-      width: 80%;
+      width: 75%;
       padding: 10px;
 
       text-align: center;
       position: fixed;
-      top: 15%;
+      top: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
@@ -38,7 +38,7 @@
 
       text-align: center;
       position: fixed;
-      top: 27%;
+      top: 25%;
       left: 50%;
       transform: translate(-50%, -50%);
 
@@ -97,53 +97,11 @@
     overflow: hidden;
   }
 
-  div.TalbeOfContent{
-    margin: auto;
-    width: 75%;
-    padding: 10px;
 
-    text-align: left;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-}
+.TableOfContent{
 
-a:link {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
-}
 
-a:visited {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
-}
-
-a:hover {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
-}
-
-a:active {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
 }
 
 }
