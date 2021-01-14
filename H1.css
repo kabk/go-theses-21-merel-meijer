@@ -110,6 +110,18 @@ div.bodytext{
   display: none;
 }
 
+div.bodytext_groot{
+  display: none;
+}
+
+.toptexts2 {
+  display: none;
+}
+
+div.rotation img{
+  display: none;
+}
+
 
 ul {
   margin: 0;
