@@ -65,6 +65,18 @@ div.bodytext_groot{
   line-height: 35px;
 }
 
+div.bodytext_groot_achtergrond{
+  background-color: black;
+  font-size: 35px;
+  font-family: linotype-sabon, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  line-height: 35px;
+  padding: 40px 40px;
+
+}
+
 .toptexts2 {
    animation: fadeEffect 8s; /* fading effect takes 3s */
    z-index: 1;
@@ -111,6 +123,10 @@ div.bodytext{
 }
 
 div.bodytext_groot{
+  display: none;
+}
+
+div.bodytext_groot_achtergrond{
   display: none;
 }
 

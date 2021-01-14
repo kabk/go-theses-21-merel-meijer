@@ -24,6 +24,8 @@
       text-align: center;
       position: fixed;
       top: 15%;
+      /* vh
+      alles in 1 div */
       left: 50%;
       transform: translate(-50%, -50%);
   }
