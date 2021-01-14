@@ -41,7 +41,7 @@ div.subtitle{
 }
 
 div.bodytext{
-  font-size: 20px;
+  font-size: 18px;
   font-family: linotype-sabon, serif;
   font-style: normal;
   font-weight: 400;
@@ -49,17 +49,39 @@ div.bodytext{
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 20px;
+  line-height: 20.5px;
+}
 
+
+div.bodytext_groot{
+  font-size: 35px;
+  font-family: linotype-sabon, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  line-height: 35px;
 }
 
 .toptexts2 {
    animation: fadeEffect 8s; /* fading effect takes 3s */
    z-index: 1;
-   font-size: 40px;
-   font-family: halyard-display, sans-serif;
-   font-weight: bold;
+   font-size: 18px;
+   font-family: linotype-sabon, serif;
+   font-weight: normal;
    color: rgb(102, 255, 51);
+   line-height: 20.5px;
 
+}
+
+div.rotation img{
+  width: 10%;
+  height: 10%;
+  margin-left: 50%;
+ /* margin-right: 50%;  */
+  /* transform: translate(-50%, -50%); */
 }
 
 @keyframes fadeEffect { /* from 0 to full opacity */
@@ -72,12 +94,22 @@ div.bodytext{
 
 @media only screen and (orientation: landscape) {
 body {
-  background-color:black;
+  background-color:white;
 }
 
-div.text{
+div.title{
   display: none;
 }
+
+div.subtitle{
+  display: none;
+}
+
+
+div.bodytext{
+  display: none;
+}
+
 
 ul {
   margin: 0;
@@ -104,14 +136,14 @@ ul {
 
 .scroll-slider__slide_1 {
   height: 535px;
-  min-width: 70%;
+  min-width: 65%;
   overflow: hidden;
   /* -webkit-filter: blur(8px) grayscale(100%); */
 }
 
 .scroll-slider__slide_2 {
   height: 535px;
-  min-width: 40%;
+  min-width: 36.8%;
   overflow: hidden;
   padding-left: 10px;
   /* -webkit-filter: blur(8px) grayscale(100%); */
@@ -119,7 +151,7 @@ ul {
 
 .scroll-slider__slide_3 {
   height: 535px;
-  min-width: 40%;
+  min-width: 35%;
   overflow: hidden;
   padding-left: 10px;
   /* -webkit-filter: blur(8px) grayscale(100%); */
@@ -127,7 +159,15 @@ ul {
 
 .scroll-slider__slide_4 {
   height: 535px;
-  min-width: 100%;
+  min-width: 89.4%;
+  overflow: hidden;
+  padding-left: 10px;
+  /* -webkit-filter: blur(8px) grayscale(100%); */
+}
+
+.scroll-slider__slide_5 {
+  height: 535px;
+  min-width: 80.5%;
   overflow: hidden;
   padding-left: 10px;
   /* -webkit-filter: blur(8px) grayscale(100%); */
