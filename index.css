@@ -1,7 +1,7 @@
 
 @media only screen and (orientation: portrait) {
   body {
-    background-color:rgb(102, 255, 51);
+    background-color:white;
   }
 
   div.TalbeOfContent{
@@ -12,41 +12,104 @@
   }
 
   div.text{
-    font-size: 80px;
-    font-family: halyard-display, sans-serif;
+    font-size: 30px;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 600;
     font-style: normal;
-    font-weight: 400;
-    color: white;
-      margin: auto;
-      width: 80%;
+    color: black;
+      /* margin: auto; */
+      width: 90%;
       padding: 10px;
 
       text-align: center;
       position: fixed;
-      top: 15%;
-      /* vh
-      alles in 1 div */
+      padding-top: 30%;
+      /* vh inplaats van %
+      alles in 1 div (title, subtitle)
+       height;
+       see th background, use a color
+      */
       left: 50%;
       transform: translate(-50%, -50%);
+  }
+
+
+    #container {
+      font-family: franklin-gothic-atf, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size:110px;
+      padding-top:445px;
+      padding-left: 20px;
+      padding-right: 20px;
+      position:fixed;
+      width:100%;
+      /* text-align:center; */
+    }
+
+    #flip {
+      height:115px;
+      overflow:hidden;
+    }
+
+    #flip > div > div {
+      color:black;
+      /* height:100%; */
+      display:inline-block;
+    }
+
+    #flip div:first-child {
+      animation: show 5s linear reverse infinite;
+    }
+
+    @keyframes show {
+      0% {margin-top:110px;}
+      100% {margin-top:-350px;}
+      /* 33% {margin-top:-200px;}
+      38% {margin-top:-150px;} */
+      /* 66% {margin-top:90px;} */
+      /* 71% {margin-top:90px;} */
+      /* 99.99% {margin-top:100px;} */
+      /* 100% {margin-top:0px;} */
+    }
+
+  div.write{
+    font-size: 110px;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+      /* margin: auto; */
+      /* width: 50%; */
+      /* padding: 10px; */
+      text-align: center;
+      position: fixed;
+      padding-top:320%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-left: 20px;
+      padding-right: 20px;
+
   }
 
   div.subtext{
-    font-size: 60px;
+    font-size: 15px;
     font-family: linotype-sabon, serif;
     font-style: italic;
     font-weight: 400;
-    color: white;
+    color: black;
       margin: auto;
       width: 75%;
-      padding: 10px;
+      padding: 20px;
 
       text-align: center;
       position: fixed;
-      top: 27%;
+      padding-top: 320%;
       left: 50%;
       transform: translate(-50%, -50%);
 
   }
+
 
   div.name{
     font-size: 30px;
