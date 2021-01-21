@@ -1,11 +1,7 @@
 
 @media only screen and (orientation: portrait) {
   body {
-    background-color:white;
-  }
-
-  div.TalbeOfContent{
-    display: none;
+    background-color:black;
   }
   div.scroll-slider {
     display: none;
@@ -16,9 +12,9 @@
     font-family: franklin-gothic-atf, sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: black;
+    color: white;
       /* margin: auto; */
-      width: 90%;
+      width: 100%;
       padding: 10px;
 
       text-align: center;
@@ -33,102 +29,315 @@
       transform: translate(-50%, -50%);
   }
 
+  div.subtext{
+    font-size: 10px;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+      margin: auto;
+      width: 80%;
+      padding: 20px;
 
-    #container {
+      text-align: center;
+      position: fixed;
+      padding-top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  div.name{
+    font-size: 10px;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+      margin: auto;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 95%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 7px;
+  }
+
+
+  div.TalbeOfContent0 {
+      position: fixed;
       font-family: franklin-gothic-atf, sans-serif;
       font-weight: 600;
       font-style: normal;
-      font-size:110px;
-      padding-top:445px;
-      padding-left: 20px;
-      padding-right: 20px;
+      font-size: 15px;
+      width: 100%;
+      text-align: center;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: 40%;
+      word-spacing: 11em;
+  }
+
+  div.TalbeOfContent1{
+      position: fixed;
+      font-family: franklin-gothic-atf, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 15px;
+      width: 100%;
+      text-align: center;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: 150%;
+      word-spacing: 9.5em;
+      margin-left: 2px;
+
+  }
+
+    #container {
       position:fixed;
+      font-family: franklin-gothic-atf, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size:50px;
       width:100%;
-      /* text-align:center; */
+      display:block;
+      margin-left: -54%;
+      margin-top: 50%;
+      text-align: right;
     }
 
     #flip {
-      height:115px;
+      height:55px;
       overflow:hidden;
     }
 
     #flip > div > div {
       color:black;
-      /* height:100%; */
+      padding:4px 12px;
+      height:42.9px;
+      margin-bottom:45px;
       display:inline-block;
     }
 
     #flip div:first-child {
-      animation: show 5s linear reverse infinite;
+      animation: show 5s linear infinite;
     }
 
-    @keyframes show {
-      0% {margin-top:110px;}
-      100% {margin-top:-350px;}
-      /* 33% {margin-top:-200px;}
-      38% {margin-top:-150px;} */
-      /* 66% {margin-top:90px;} */
-      /* 71% {margin-top:90px;} */
-      /* 99.99% {margin-top:100px;} */
-      /* 100% {margin-top:0px;} */
+    #flip div div {
+      color: black;
+      -webkit-text-stroke-width: 0.8px;
+      -webkit-text-stroke-color: white;
     }
 
-  div.write{
-    font-size: 110px;
-    font-family: franklin-gothic-atf, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: black;
-      /* margin: auto; */
-      /* width: 50%; */
-      /* padding: 10px; */
-      text-align: center;
-      position: fixed;
-      padding-top:320%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding-left: 20px;
-      padding-right: 20px;
+    #flip div:last-child div {
+        color: white;
+    }
 
-  }
+    div.write1{
+        position: absolute;
+        font-family: franklin-gothic-atf, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 50px;
+        padding-left: 47%;
+        margin-top: 37.5%;
+    }
 
-  div.subtext{
-    font-size: 15px;
-    font-family: linotype-sabon, serif;
-    font-style: italic;
-    font-weight: 400;
-    color: black;
-      margin: auto;
-      width: 75%;
-      padding: 20px;
+    div.subtext1{
+      font-size: 10px;
+      font-family: franklin-gothic-atf, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+        margin: auto;
+        width: 100%;
+        padding: 20px;
 
-      text-align: center;
-      position: fixed;
-      padding-top: 320%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+        text-align: center;
+        position: fixed;
+        padding-top: 140%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-  }
+        #container1 {
+          position:fixed;
+          font-family: franklin-gothic-atf, sans-serif;
+          font-weight: 600;
+          font-style: normal;
+          font-size:50px;
+          width:100%;
+          display:block;
+          margin-left: -54%;
+          margin-right: 10px;
+          margin-top: 85%;
+          text-align: right;
+        }
 
+        #flip1 {
+          height:55px;
+          overflow:hidden;
+        }
 
-  div.name{
-    font-size: 30px;
-    font-family: linotype-sabon, serif;
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-      margin: auto;
-      width: 50%;
-      padding: 10px;
-      text-align: center;
-      position: fixed;
-      top: 85%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      line-height: 10px;
+        #flip1 > div > div {
+          color:black;
+          padding:4px 12px;
+          height:42.9px;
+          margin-bottom:45px;
+          display:inline-block;
+        }
 
-  }
+        #flip1 div:first-child {
+          animation: show 5s linear infinite;
+        }
 
+        #flip1 div div {
+          color:white;
+        }
+
+        #flip1 div:first-child div {
+          color: black;
+          -webkit-text-stroke-width: 0.8px;
+          -webkit-text-stroke-color: white;
+        }
+
+        #flip1 div:last-child div {
+          color: black;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: white;
+        }
+
+        div.write2{
+          position: absolute;
+          font-family: franklin-gothic-atf, sans-serif;
+          font-weight: 600;
+          font-style: normal;
+          font-size: 50px;
+          padding-left: 47%;
+          margin-top: 73%;
+        }
+
+        div.subtext2{
+          font-size: 10px;
+          font-family: franklin-gothic-atf, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          color: white;
+            margin: auto;
+            width: 80%;
+            padding: 20px;
+
+            text-align: center;
+            position: fixed;
+            padding-top: 210%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+            #container2 {
+              position:fixed;
+              font-family: franklin-gothic-atf, sans-serif;
+              font-weight: 600;
+              font-style: normal;
+              font-size:50px;
+              width:100%;
+              display:block;
+              margin-left: -54%;
+              margin-right: 10px;
+              margin-top: 120%;
+              text-align: right;
+            }
+
+            #flip2 {
+              height:55px;
+              overflow:hidden;
+            }
+
+            #flip2 > div > div {
+              color:black;
+              padding:4px 12px;
+              height:42.9px;
+              margin-bottom:45px;
+              display:inline-block;
+            }
+
+            #flip2 div:first-child {
+              animation: show 5s linear infinite;
+            }
+
+            #flip2 div div {
+              color: black;
+              -webkit-text-stroke-width: 0.8px;
+              -webkit-text-stroke-color: white;
+            }
+
+            #flip2 div:first-child div {
+              color: white;
+            }
+
+            div.write3{
+              position: absolute;
+              font-family: franklin-gothic-atf, sans-serif;
+              font-weight: 600;
+              font-style: normal;
+              font-size: 50px;
+              padding-left:47%;
+              margin-top: 108%;
+            }
+
+            div.subtext3{
+              font-size: 10px;
+              font-family: franklin-gothic-atf, sans-serif;
+              font-weight: 400;
+              font-style: normal;
+              color: white;
+                margin: auto;
+                width: 80%;
+                padding: 20px;
+
+                text-align: center;
+                position: fixed;
+                padding-top: 285%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+
+}
 
   div.title{
     position: sticky;
@@ -223,55 +432,6 @@
     position: relative;
     overflow: hidden;
   }
-
-  div.TalbeOfContent{
-    margin: auto;
-    width: 75%;
-    padding: 10px;
-
-    text-align: left;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-a:link {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
-}
-
-a:visited {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
-}
-
-a:hover {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
-}
-
-a:active {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: halyard-display, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color:rgb(102, 255, 51);
-}
 
 
 .scroll-slider {
