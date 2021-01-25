@@ -47,7 +47,7 @@
       width:100%;
       display:block;
       margin-left: -54%;
-      margin-top: 5.5vh;
+      margin-top: 5vh;
       text-align: right;
     }
 
@@ -86,7 +86,7 @@
         font-size: 50px;
         color:white;
         padding-left: 47%;
-        margin-top: -1.5vh;
+        margin-top: -2vh;
     }
 
     div.subtext1{
@@ -114,7 +114,7 @@
           font-size:50px;
           width:100%;
           display:block;
-          margin-left: -54%;
+          margin-left: -53.5%;
           margin-right: 10px;
           margin-top: 43vh;
           text-align: right;
@@ -296,12 +296,12 @@ div.titleThesis{
   width: 100%;
   padding: 10px;
   text-align: center;
-  top: 112vh;
+  top: 9vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-  div.subtext{
+  /* div.subtext{
     position: relative;
     font-size: 10px;
     font-family: franklin-gothic-atf, sans-serif;
@@ -311,10 +311,10 @@ div.titleThesis{
     margin: auto;
     width: 100%;
     text-align: center;
-    top: 107vh;
+    top: 6vh;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+  } */
 
   div.TalbeOfContent {
       position: relative;
@@ -325,7 +325,7 @@ div.titleThesis{
       color: white;
       width: 100%;
       left: 5vh;
-      margin-top: 110vh;
+      margin-top: 6vh;
       line-height: 38px;
 
   }
@@ -379,6 +379,24 @@ div.titleThesis{
     z-index:1;
   }
 
+  div.subtitle1{
+    position: sticky;
+    background-color: white;
+    font-size: 20px;
+    font-family: halyard-display, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    margin: auto;
+    top: 3.5vh;
+    width: 100%;
+    /* padding:8px; */
+    height: 20px;
+    left: 50%;
+    text-align: center;
+    z-index:1;
+  }
+
 
   div.bodytext{
     font-size: 15px;
@@ -388,7 +406,7 @@ div.titleThesis{
     color: black;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 4.5vh;
+    margin-top: 3vh;
     letter-spacing: 0px;
     word-spacing: 0px;
     line-height: 18px;
@@ -399,6 +417,66 @@ div.titleThesis{
     text-align: left;
   }
 
+  div.bio img{
+    /* height: 535px; */
+    width: 100%;
+    /* padding-top:6vh;
+    overflow: hidden;
+    padding-left: 1vh; */
+  }
+
+  div.introcon{
+    font-size: 15px;
+    font-family: linotype-sabon, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 3vh;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 18px;
+    font-kerning: normal;
+    text-align: left;
+
+  }
+
+  div.bodytext_groot_achtergrond_neg{
+    background: black;
+    font-size: 35px;
+    font-family: linotype-sabon, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    padding:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0vh;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 40px;
+    font-kerning: normal;
+    text-align: left;
+  }
+
+  div.bodytext_groot{
+    font-size: 35px;
+    font-family: linotype-sabon, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    padding:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0vh;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 40px;
+    font-kerning: normal;
+    text-align: left;
+
+  }
 
   .toptexts2 {
      animation: fadeEffect 10s; /* fading effect takes 3s */
@@ -409,6 +487,38 @@ div.titleThesis{
      font-weight:bold;
      color: black;
      line-height: 18px;
+     margin-right: 40px;
+  }
+
+  .toptexts2_neg {
+     animation: fadeEffect 10s; /* fading effect takes 3s */
+     z-index: 1;
+     font-size: 15px;
+     font-family: linotype-sabon, serif;
+     font-style: normal;
+     font-weight:bold;
+     color: white;
+     line-height: 18px;
+     margin-right: 40px;
+  }
+
+  div.toc img{
+    position: fixed;
+    width: 5%;
+    z-index:100;
+  }
+
+  div.toc1 img{
+    position: fixed;
+    width: 5%;
+    z-index:100;
+    top: 1vh;
+    left: 1.5vh;
+  }
+
+  div.witregel{
+color: white;
+
   }
 
   @keyframes fadeEffect { /* from 0 to full opacity */
@@ -420,7 +530,7 @@ div.titleThesis{
 
 @media only screen and (orientation: landscape) {
   body {
-    background-color:black;
+    background-color:white;
   }
 
   div.text{
@@ -451,11 +561,23 @@ div.titleThesis{
     display: none;
   }
 
+  div.subtitle1{
+    display: none;
+  }
+
   div.telefoon img{
     display: none;
   }
 
-  div.bodytext_groot_achtergrond{
+  input{
+    display: none;
+  }
+
+  div.bio img{
+    display: none;
+  }
+
+  div.bodytext_groot_achtergrond_neg{
     display: none;
   }
 
@@ -467,7 +589,21 @@ div.titleThesis{
     display: none;
   }
 
+  div.introcon{
+  display: none;
+  }
 
+  div.witregel{
+  display: none;
+  }
+
+  div.toc img{
+    display: none;
+  }
+
+  div.toc1 img{
+    display: none;
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -493,11 +629,22 @@ div.titleThesis{
 
 }
 
+.scroll-slider__slide_0 {
+  height: 535px;
+  width:34%;
+  overflow: hidden;
+  padding-top:6vh;
+  padding-left: 35%;
+}
+
+
 .scroll-slider__slide_1 {
   height: 535px;
-  min-width: 65%;
+  min-width: 63%;
   overflow: hidden;
   z-index:-100;
+  padding-top:6vh;
+  padding-left: 0vh;
 }
 
 .scroll-slider__slide_2 {
@@ -505,6 +652,8 @@ div.titleThesis{
   min-width: 37%;
   overflow: hidden;
   padding-left: 10px;
+  padding-top:6vh;
+  padding-left: 1vh;
 }
 
 .scroll-slider__slide_3 {
@@ -512,6 +661,8 @@ div.titleThesis{
   min-width: 35.3%;
   overflow: hidden;
   padding-left: 10px;
+  padding-top:6vh;
+  padding-left: 1vh;
 
 }
 
@@ -520,14 +671,130 @@ div.titleThesis{
   min-width: 90%;
   overflow: hidden;
   padding-left: 10px;
+  padding-top:6vh;
+  padding-left: 1vh;
+}
+
+/*  h2 */
+
+.scroll-slider__slide_5 {
+  height: 535px;
+  min-width: 83%;
+  overflow: hidden;
+  padding-top:6vh;
+  padding-left: 0vh;
+}
+
+.scroll-slider__slide_6 {
+  height: 535px;
+  min-width: 27%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_7 {
+  height: 535px;
+  min-width: 33.4%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_8 {
+  height: 535px;
+  min-width: 33%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_9 {
+  height: 535px;
+  min-width: 93%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 0vh;
+}
+
+.scroll-slider__slide_10 {
+  height: 535px;
+  min-width: 68%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_11 {
+  height: 535px;
+  min-width: 32.5%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_12 {
+  height: 535px;
+  min-width: 60.5%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_13 {
+  height: 535px;
+  min-width: 32.5%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_14 {
+  height: 535px;
+  min-width: 32.5%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_15 {
+  height: 535px;
+  min-width: 50.5%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_16 {
+  height: 535px;
+  min-width: 105%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_17 {
+  height: 535px;
+  min-width: 71%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_18 {
+  height: 535px;
+  min-width: 223%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
+}
+
+.scroll-slider__slide_19 {
+  height: 535px;
+  min-width: 34.5%;
+  padding-top:6vh;
+  overflow: hidden;
+  padding-left: 1vh;
 }
 
 }
-
-/* div.informatie img {
-  position: fixed;
-  width: 5%;
-  top: 87vh;
-  left: 5vh;
-  z-index:100;
-} */
