@@ -450,8 +450,8 @@ div.titleThesis{
     font-weight: 400;
     color: white;
     padding:40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 4px;
+    margin-right: 0px;
     margin-top: 0vh;
     letter-spacing: 0px;
     word-spacing: 0px;
@@ -504,16 +504,20 @@ div.titleThesis{
 
   div.toc img{
     position: fixed;
-    width: 5%;
+    width: 15.5%;
+    height: 17.3%;
     z-index:100;
+    top: -5vh;
+    left: -3vh;
   }
 
   div.toc1 img{
     position: fixed;
-    width: 5%;
+    width: 13%;
+    height: 17.3%;
     z-index:100;
-    top: 1vh;
-    left: 1.5vh;
+    top: -5vh;
+    left: -3vh;
   }
 
   div.witregel{
@@ -604,6 +608,15 @@ color: white;
   div.toc1 img{
     display: none;
   }
+
+  div.toc{
+    display: none;
+  }
+
+  div.toc1 {
+    display: none;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -795,6 +808,31 @@ color: white;
   padding-top:6vh;
   overflow: hidden;
   padding-left: 1vh;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+
 }
 
 }
